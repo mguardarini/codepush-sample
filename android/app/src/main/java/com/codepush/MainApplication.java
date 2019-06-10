@@ -33,7 +33,7 @@ public class MainApplication extends Application implements ReactApplication {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
             // new CodePush(getResources().getString(R.string.reactNativeCodePush_androidDeploymentKey), getApplicationContext(), BuildConfig.DEBUG),
-          new CodePush("UnvMNaKoGtq97lOdz-wqwI6vpZ4pr1LgUXQCN", MainApplication.this, BuildConfig.DEBUG)
+          new CodePush("UlcVVKSI9K1yK9_rL23hw21eXSkprkmKtQ7CE", MainApplication.this, BuildConfig.DEBUG)
 
       );
     }
