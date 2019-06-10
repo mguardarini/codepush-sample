@@ -30,6 +30,7 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome Mauro!</Text>
+        <Text style={styles.welcome}>Teste!</Text>
         {/* <Text style={styles.instructions}>If you want to see this page code push work.</Text>
         <Text style={styles.instructions}>{instructions}</Text> */}
         <Text>Code Push Work!</Text>
