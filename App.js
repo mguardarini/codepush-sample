@@ -23,7 +23,7 @@ export default class App extends Component {
     codePush.sync({
       updateDialog: true,
       installMode: codePush.InstallMode.IMMEDIATE
-    });
+    },this.onSyncStatusChange);
   }
 
   render() {
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: 'yellow',
   },
   welcome: {
     fontSize: 20,
