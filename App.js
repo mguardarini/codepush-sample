@@ -33,7 +33,7 @@ export default class App extends Component {
         {/* <Text style={styles.welcome}>Teste!</Text> */}
         {/* <Text style={styles.instructions}>If you want to see this page code push work.</Text>
         <Text style={styles.instructions}>{instructions}</Text> */}
-        {/* <Text>Code Push Work!</Text> */}
+        <Text>Code Push Work!</Text>
         <TouchableOpacity onPress={this.onButtonPress}>
           <Text>Check for updates</Text>
         </TouchableOpacity>
